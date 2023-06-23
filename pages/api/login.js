@@ -1,5 +1,4 @@
-import * as dotenv from "dotenv";
-dotenv.config();
+
 import querystring from "node:querystring";
 
 const AUTH0_DOMAIN = process.env.AUTH0_DOMAIN;
